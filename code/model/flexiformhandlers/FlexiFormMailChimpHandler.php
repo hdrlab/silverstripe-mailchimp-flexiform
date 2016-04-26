@@ -158,7 +158,7 @@ class FlexiFormMailChimpHandler extends FlexiFormEmailHandler
         return parent::onConfigUpdate($config, $flexi);
     }
 
-    protected function augmentMailChimpField(FormField $field, String $component,
+    protected function augmentMailChimpField(FormField $field, $component,
         FlexiFormMailChimpClient $client)
     {
         switch ($component) {
